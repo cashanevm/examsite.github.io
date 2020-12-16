@@ -21,15 +21,47 @@ async function getResponse (blockNum){
   
   }
 
-
-  element = document.getElementById('c1');
+function getr(){
+  element = document.getElementById("c1");
 // let sub = document.getElementsById('c1');
 element.addEventListener('click', function(){
 console.log("e")
-alert( 'Всем привет!' );
+alert( 'Всім привіт!' );
 
 
 })
+element = document.getElementById("c2");
+// let sub = document.getElementsById('c1');
+element.addEventListener('click', function(){
+console.log("e")
+alert( 'Всім привіт!' );
+
+
+})
+element = document.getElementById("c3");
+// let sub = document.getElementsById('c1');
+element.addEventListener('click', function(){
+console.log("e")
+alert( 'Всім привіт!' );
+
+
+})
+element = document.getElementById("c4");
+// let sub = document.getElementsById('c1');
+element.addEventListener('click', function(){
+console.log("e")
+alert( 'Всім привіт!' );
+
+
+})
+element = document.getElementById("c5");
+// let sub = document.getElementsById('c1');
+element.addEventListener('click', function(){
+console.log("e")
+alert( 'Всім привіт!' );
+
+
+})}
 // sub.addEventListener('click', function(){
     
 //     for(i=0;i<=sub.length; i++)
