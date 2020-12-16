@@ -26,7 +26,7 @@ function getr(){
 // let sub = document.getElementsById('c1');
 element.addEventListener('click', function(){
 console.log("e")
-alert( 'Всім привіт!' );
+alert( 'home' );
 
 
 })
@@ -34,7 +34,7 @@ element = document.getElementById("c2");
 // let sub = document.getElementsById('c1');
 element.addEventListener('click', function(){
 console.log("e")
-alert( 'Всім привіт!' );
+alert( 'about' );
 
 
 })
@@ -42,7 +42,7 @@ element = document.getElementById("c3");
 // let sub = document.getElementsById('c1');
 element.addEventListener('click', function(){
 console.log("e")
-alert( 'Всім привіт!' );
+alert( 'Our History' );
 
 
 })
@@ -50,7 +50,7 @@ element = document.getElementById("c4");
 // let sub = document.getElementsById('c1');
 element.addEventListener('click', function(){
 console.log("e")
-alert( 'Всім привіт!' );
+alert( 'groups' );
 
 
 })
@@ -58,7 +58,7 @@ element = document.getElementById("c5");
 // let sub = document.getElementsById('c1');
 element.addEventListener('click', function(){
 console.log("e")
-alert( 'Всім привіт!' );
+alert( 'gallery' );
 
 
 })}
