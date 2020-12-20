@@ -1,0 +1,86 @@
+.f {
+    color: #C8B78C;
+    color: #53292B;
+    color: #AD3B3A;
+    color: #DD6C4E;
+    color: #F4C871;
+    color: #E4E0C3;
+}
+
+#wrapper {
+    width: 100vw;
+    height: 100vh;
+    animation: start 4s 1;
+    position: absolute;
+    animation-play-state: paused;
+    z-index: -10;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    animation-timing-function: linear;
+}
+
+#wrapper section button {
+    width: 100%;
+    height: 10vh;
+    margin: 15vh 0;
+    animation: starttext 4s 1;
+    font-size: 60px;
+    color: #53292B;
+}
+#wrapper section button:hover {
+    -o-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    -webkit-transform: translateY(-10px);  
+    transform: translateY(-10px);
+  }
+#wrapper section p {
+    animation: starttext 8s 1;
+}
+
+#wrapper section {
+    margin: 0 auto;
+    font-size: 100px;
+    color: white;
+}
+
+#wrapper section h1 {
+    margin: 0 auto;
+    font-size: 100px;
+    color: white;
+    animation: starttext 2s 1;
+}
+
+.site {
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+}
+
+@keyframes start {
+    from {
+        background-color: #53292B;
+        opacity: 1;
+        z-index: 10;
+    }
+    to {
+        opacity: 0;
+        z-index: -10;
+    }
+}
+
+@keyframes starttext {
+    from {
+        opacity: 0;
+        z-index: -10;
+    }
+    50% {
+        opacity: 0;
+        z-index: -10;
+    }
+    to {
+        opacity: 1;
+        z-index: 10;
+    }
+}
