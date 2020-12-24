@@ -1,13 +1,14 @@
 let elementWrapper = document.getElementById("start__button")
 
+
 function getStarted() {
 	let elementWrapper = document.getElementById("element__wrapper")
 	let elementWelcome = document.getElementById("element__welcome")
 	let elementSector = document.getElementById("element__sector")
-
+	let siteMain =document.getElementById("site__main")
 	elementSector.style.animationPlayState = "running";
 	setTimeout(() =>{elementWelcome.style.animationPlayState = "running";}, 2000)
-	setTimeout(() =>{elementWrapper.style.animationPlayState = "running";}, 4000)
+	setTimeout(() =>{elementWrapper.style.animationPlayState = "running"; siteMain.style.display = "block";}, 4000)
 }
 
 //elementWrapper.addEventListener("click", getStarted);
@@ -52,3 +53,23 @@ buttonContact.addEventListener("click",()=>{
 	siteContact.style.display = "block"
 	console.log("click")
 })
+
+function getBlure(id){
+	let foto = document.getElementById(id)
+	
+	// foto.style.animation = "foto 3s";
+		// foto.style.filter = "blur(10px);";
+	foto.addEventListener("mouseover", ()=>{
+		// animation: foto 3s;
+		// animation-fill-mode: forwards;
+		foto.style.animation = "foto 3s";
+		foto.style.animationFillMode = "forwards";
+		foto.style.filter = "blur(0);";
+console.log("over")
+	})
+
+}
+getBlure("main_foto_4")
+getBlure("main_foto_3")
+getBlure("main_foto_2")
+getBlure("main_foto_1")
