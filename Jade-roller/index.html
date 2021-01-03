@@ -10,30 +10,127 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div id="order__section">
+        <div class="order__wrapper">
+        <h1>Оформление заказа</h1>
+        <section>
+            <div style="display: flex;">
+            <div id="roller" class="order__item">
+                <div style="display: flex;" class="img__order">
+                    <img src="img/Jade roller.png" style="width: 50%;" alt="">
+                    <div>
+                        <h2>Массажор “Jade Roller” <br>$ 150</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam consectetur augue sed convallis dignissim. Nullam eget purus neque. Cras pellentesque posuere 
+                            laoreet</p>
+                    </div>
+                </div>
+            </div>
+            <div id="skrebok" class="order__item">
+                <div style="display: flex;" class="img__order">
+                    <img src="img/Скребок.png" style="width: 40%;" alt="">
+                    <div>
+                        <h2>Массажор “Jade Roller” <br>$ 150</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam consectetur augue sed convallis dignissim. Nullam eget purus neque. Cras pellentesque posuere 
+                            laoreet</p>
+                    </div>
+                </div>
+            </div>
+            <div id="jade" class="order__item">
+                <div style="display: flex;" class="img__order">
+                    <img src="img/Jade.png" style="width: 40%;" alt="">
+                    <div>
+                        <h2>Массажор “Jade Roller” <br>$ 150</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam consectetur augue sed convallis dignissim. Nullam eget purus neque. Cras pellentesque posuere 
+                            laoreet</p>
+                    </div>
+                </div>
+            </div>
+           <div class="order__right">
+            <div style="display: flex;" class="input__order">
+            <div>
+                    <input type="name" placeholder="Имя">
+                <input type="tell" placeholder="Номер телефона" name="tel" pattern="8-[0-9]{10}">
+                <input type="sity" placeholder="Город">
+            </div>
+            <div>
+                <input type="name" placeholder="Фамилия">
+                <input type="email" placeholder="E-mail">
+                <input type="tell" placeholder="Номер телефона" name="tel" pattern="8-[0-9]{10}">
+            </div></div>
+            <div style="display: flex;">
+              
+        
+                  <a href="">Заказать</a>
+                <p>Отправляя заявку Вы соглашаетесь на обработку персональных данных</p></div>
+            
+            </div>
+                
+            </div>
+            <p id="del__order" href="">&#10006 Закрыть</p>
+        </section>
+    </div>
+    </div>
+    <div id="phone__section">
+        <section>
+            <div class="q__ph"><h1>Остались вопросы?
+                Будем рады вам помочь!</h1>
+                <div class="phone__more"><div>
+                <p>По телефону</p>
+                <p> <span>+38 (098) 331-44-91</span></p>
+            </div>
+            <div>
+                <p>Написать на почту</p>
+                <p><span>cashanevm@gmail.com</span> </p>
+            </div></div>
+            
+             <p>В мессенджере</p>
+             <ul class="nav__chats">
+                <li><img src="img/icon-instagram.png" alt=""></li>
+                <li><img src="img/icon-pinterest.png" alt=""></li>
+                <li><img src="img/icon-viber.png" alt=""></li>
+                <li><img src="img/icon-телеграмма.png" alt=""></li>
+            </ul>
+            </div>
+            <div class="ph__ph">
+            <h1>Закажите звонок,
+                и мы перезвоним очень скоро!</h1>
+                
+    <input type="tell" placeholder="Ваш номер телефона" name="tel" pattern="8-[0-9]{10}">
+               <div style="display: flex;">
+                <a href="">Заказать звонок</a>
+                <p>Отправляя заявку Вы соглашаетесь на обработку персональных данных</p>
+            </div>
+            </div>
+            <p id="del__phone" href="">&#10006 Закрыть</p>
+        </section>
+    </div>
     <div class="block1">
     <header>
         <div class="logo">
             <img src="img/Screenshot__85_-removebg-preview 1.png" alt="">
             <p>Mommy’s</p>
         </div>
+        <button id="phone__menu">&#9776</button>
         <nav>
-            <ul>
-                <li>Наши товары</li>
-                <li>О нас</li>
-                <li>Преимущества</li>
-                <li>Фото</li>
-                <li>Отзывы</li>
-                <li>FAQ</li>
+            
+            <ul id="menu__child">
+                <li><a href="">Наши товары</a> </li>
+                <li><a href="">О нас</a> </li>
+                <li><a href="">Преимущества</a> </li>
+                <li><a href="">Фото</a> </li>
+                <li><a href="">Отзывы</a> </li>
+                <li><a href="">FAQ</a> </li>
             </ul>
         </nav>
-        
+        <button id="phone__phone">&#9742</button>
         <nav class="phone">
+            
             <div class="circle__1"><div class="circle__2"><p>&#9742</p></div></div>
             
 
 <div class="phone__nav"><p>принимаем звонки 24 / 7</p>
         <a id="phone__a"href="tel:+380983314491">+380983314491</a><br>
-        <a href="">Заказать звонок</a>
+        <p id="get__phone"href="">Заказать звонок</p>
     </div>
         
         </nav>
@@ -52,7 +149,7 @@
     <div class="block__add"><p style="color:#ED6990; font-size: 50px;padding-bottom:15px ;" >&#9850</p><p>Персональные скидки и еженедельные бонусы</p></div>
 </div>   
 </section>
-        <section  class="img__section">
+        <section  class="img__section" style="position: relative;">
             <img  src="img/Лебестки.png" alt="Лебестки">
             <img  src="img/Тень роллера.png" alt="Тень роллера">
             <img  src="img/Скребок.png" alt="Скребок">
@@ -72,19 +169,20 @@
             <img src="img/Jade roller.png" alt="">
             <h2>Массажор “Jade Roller”<br>$ 150</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam consectetur augue sed convallis dignissim. Nullam eget purus neque. Cras pellentesque posuere laoreet</p>
-            <a href="">Заказать</a>
+            <button id="roller__button" >Заказать</button>
+            
         </div>
         <div class="block__item">
             <img src="img/Скребок.png" alt="">
             <h2>Скребок гуаш<br> $ 90</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam consectetur augue sed convallis dignissim. Nullam eget purus neque. Cras pellentesque posuere laoreet</p>
-            <a href="">Заказать</a>
+            <button id="skrebok__button"  >Заказать</button>
         </div>
         <div class="block__item">
             <img src="img/Jade.png" alt="">
             <h2>Набор “Jade Roller”<br>$ 450</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam consectetur augue sed convallis dignissim. Nullam eget purus neque. Cras pellentesque posuere laoreet</p>
-           <a href="">Заказать</a> 
+           <button id="jade__button"  >Заказать</button> 
         </div>
     </section>
 </div>
@@ -100,9 +198,9 @@
         </div>
     </section>
     <div class="info">
-        <img src="img/Фото - блок о нас(0).png" alt="about__0">
+        <!-- <img src="img/Фото - блок о нас(0).png" alt="about__0">
         <img src="img/Фото - блок о нас (1).png" alt="about__1">
-        <img src="img/Фото - блок о нас (2).png" alt="about__2">
+        <img src="img/Фото - блок о нас (2).png" alt="about__2"> -->
        
         <ol>
             <li>
@@ -134,7 +232,8 @@
     <img  src="img/Тень роллера.png" alt="Тень роллера1">
     
     <img  src="img/Jade roller.png" alt="Jade roller1">
-    <a href="">Заказать</a>
+    <button id="roller__main">Заказать</button>
+    
 </section>
 <section class="text__sec">
     <h1>Для чего Вам нужен массажер?</h1>
@@ -184,6 +283,7 @@
     </div>
 </div>
     </div>
+    <button id="roller__block4">Заказать</button>
 </section>
 </div>
 <div class="block5">
@@ -197,6 +297,7 @@
         <img src="img/IMG_1455.png" alt="">
         <img src="img/IMG_1456.png" alt="">
         <img src="img/IMG_0642.png" alt="">
+        <img src="img/IMG_0645.png" alt="img__phone">
     </div>
     <a href="">Посмотреть больше фото в нашем инстаграм</a>
 </div>
@@ -224,10 +325,10 @@ Morbi dapibus tellus ante, eu ultricies tortor euismod at. Phasellus volutpat ac
     <section class="coment__img">
         <h1>Больше отзывов в нашем инстаграм</h1>
         <div class="img__field">
-            <img src="img/pngegg (10) 1.png"  style="position: absolute; z-index: -2;"alt="">
-            <img src="img/Group 21.png" style="position: absolute; z-index: -1;" alt="">
-            <img src="img/image 1.png" style="position: absolute; z-index: -3;" alt="">
-            <img src="img/pngegg (9) 1.png"   alt="">
+            <img src="img/pngegg (10) 1.png"  alt="pngegg10">
+            <img src="img/Group 21.png"  alt="Group21">
+            <img src="img/image 1.png"  alt="image1">
+            <img src="img/pngegg (9) 1.png" alt="pngegg9">
             
     </div>
         
@@ -250,38 +351,47 @@ Morbi dapibus tellus ante, eu ultricies tortor euismod at. Phasellus volutpat ac
     <h1>Часто задаваемые вопросы:</h1>
    <div class="q__mam">
     <div class="q__sec">
-    <div><p>Настоящий ли кварц в массажоре?</p> </div>
-    <div><p>Настоящий ли кварц в массажоре?</p></div>
-    <div><p>Настоящий ли кварц в массажоре?</p></div>
-    <div><p>Настоящий ли кварц в массажоре?</p></div>
-    <div><p>Настоящий ли кварц в массажоре?</p></div>
+    <div><p>Настоящий ли кварц в массажоре?</p><img id="button__q1" src="https://img.icons8.com/android/96/000000/expand-arrow.png"/> </div><aside id="block__q1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic quasi quae nesciunt dicta eum aut porro eveniet exercitationem molestias quam quo quia recusandae optio deserunt laudantium, corrupti in neque autem. Rem, perspiciatis temporibus! Quia aut sit sapiente hic consequuntur cum soluta maxime inventore officiis dolorum, eveniet facilis quae non temporibus?</aside>
+    <div><p>Настоящий ли кварц в массажоре?</p><img id="button__q2" src="https://img.icons8.com/android/96/000000/expand-arrow.png"/> </div><aside id="block__q2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic quasi quae nesciunt dicta eum aut porro eveniet exercitationem molestias quam quo quia recusandae optio deserunt laudantium, corrupti in neque autem. Rem, perspiciatis temporibus! Quia aut sit sapiente hic consequuntur cum soluta maxime inventore officiis dolorum, eveniet facilis quae non temporibus?</aside>
+    <div><p>Настоящий ли кварц в массажоре?</p><img id="button__q3" src="https://img.icons8.com/android/96/000000/expand-arrow.png"/> </div><aside id="block__q3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic quasi quae nesciunt dicta eum aut porro eveniet exercitationem molestias quam quo quia recusandae optio deserunt laudantium, corrupti in neque autem. Rem, perspiciatis temporibus! Quia aut sit sapiente hic consequuntur cum soluta maxime inventore officiis dolorum, eveniet facilis quae non temporibus?</aside>
+    <div><p>Настоящий ли кварц в массажоре?</p><img id="button__q4" src="https://img.icons8.com/android/96/000000/expand-arrow.png"/> </div><aside id="block__q4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic quasi quae nesciunt dicta eum aut porro eveniet exercitationem molestias quam quo quia recusandae optio deserunt laudantium, corrupti in neque autem. Rem, perspiciatis temporibus! Quia aut sit sapiente hic consequuntur cum soluta maxime inventore officiis dolorum, eveniet facilis quae non temporibus?</aside>
+    <div><p>Настоящий ли кварц в массажоре?</p><img id="button__q5" src="https://img.icons8.com/android/96/000000/expand-arrow.png"/> </div><aside id="block__q5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic quasi quae nesciunt dicta eum aut porro eveniet exercitationem molestias quam quo quia recusandae optio deserunt laudantium, corrupti in neque autem. Rem, perspiciatis temporibus! Quia aut sit sapiente hic consequuntur cum soluta maxime inventore officiis dolorum, eveniet facilis quae non temporibus?</aside>
    </div> 
    <div class="q__sec">
-    <div><p>Настоящий ли кварц в массажоре?</p></div>
-    <div><p>Настоящий ли кварц в массажоре?</p></div>
-    <div><p>Настоящий ли кварц в массажоре?</p></div>
-    <div><p>Настоящий ли кварц в массажоре?</p></div>
-    <div><p>Настоящий ли кварц в массажоре?</p></div>
+    <div><p>Настоящий ли кварц в массажоре?</p><img id="button__q6" src="https://img.icons8.com/android/96/000000/expand-arrow.png"/> </div><aside id="block__q6">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic quasi quae nesciunt dicta eum aut porro eveniet exercitationem molestias quam quo quia recusandae optio deserunt laudantium, corrupti in neque autem. Rem, perspiciatis temporibus! Quia aut sit sapiente hic consequuntur cum soluta maxime inventore officiis dolorum, eveniet facilis quae non temporibus?</aside>
+    <div><p>Настоящий ли кварц в массажоре?</p><img id="button__q7" src="https://img.icons8.com/android/96/000000/expand-arrow.png"/> </div><aside id="block__q7">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic quasi quae nesciunt dicta eum aut porro eveniet exercitationem molestias quam quo quia recusandae optio deserunt laudantium, corrupti in neque autem. Rem, perspiciatis temporibus! Quia aut sit sapiente hic consequuntur cum soluta maxime inventore officiis dolorum, eveniet facilis quae non temporibus?</aside>
+    <div><p>Настоящий ли кварц в массажоре?</p><img id="button__q8" src="https://img.icons8.com/android/96/000000/expand-arrow.png"/> </div><aside id="block__q8">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic quasi quae nesciunt dicta eum aut porro eveniet exercitationem molestias quam quo quia recusandae optio deserunt laudantium, corrupti in neque autem. Rem, perspiciatis temporibus! Quia aut sit sapiente hic consequuntur cum soluta maxime inventore officiis dolorum, eveniet facilis quae non temporibus?</aside>
+    <div><p>Настоящий ли кварц в массажоре?</p><img id="button__q9" src="https://img.icons8.com/android/96/000000/expand-arrow.png"/> </div><aside id="block__q9">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic quasi quae nesciunt dicta eum aut porro eveniet exercitationem molestias quam quo quia recusandae optio deserunt laudantium, corrupti in neque autem. Rem, perspiciatis temporibus! Quia aut sit sapiente hic consequuntur cum soluta maxime inventore officiis dolorum, eveniet facilis quae non temporibus?</aside>
+    <div><p>Настоящий ли кварц в массажоре?</p><img id="button__q10" src="https://img.icons8.com/android/96/000000/expand-arrow.png"/> </div><aside id="block__q10">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic quasi quae nesciunt dicta eum aut porro eveniet exercitationem molestias quam quo quia recusandae optio deserunt laudantium, corrupti in neque autem. Rem, perspiciatis temporibus! Quia aut sit sapiente hic consequuntur cum soluta maxime inventore officiis dolorum, eveniet facilis quae non temporibus?</aside>
    </div> </div>
 </div>
 <footer>
 <nav>
+    <div class="mass__mam">
     <ul class="nav__mass">
-        <li>Наши товары</li>
-        <li>О нас</li>
-        <li>Преимущества</li>
-        <li>Фото</li>
-        <li>Отзывы</li>
-        <li>FAQ</li>
+        <li> <a href="">Наши товары</a> </li>
+        <li> <a href="">О нас</a> </li>
+        <li> <a href="">Преимущества</a> </li>
     </ul>
+    <ul class="nav__mass">
+        <li> <a href="">Фото</a> </li>
+        <li> <a href="">Отзывы</a> </li>
+        <li> <a href="">FAQ</a> </li>
+    </ul>
+</div>
     <ul class="nav__chats">
-        <li>&#10027</li>
-        <li>&#10031</li>
-        <li>&#10057</li>
-        <li>&#10059</li>
+        <li><img src="img/icon-instagram.png" alt=""></li>
+        <li><img src="img/icon-pinterest.png" alt=""></li>
+        <li><img src="img/icon-viber.png" alt=""></li>
+        <li><img src="img/icon-телеграмма.png" alt=""></li>
     </ul>
 </nav>
 <p>Copyright 2020</p>
 </footer>
+<script>
+    
+</script>
+<script src="js/main.js"></script>
 </body>
+
 </html>

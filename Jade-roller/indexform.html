@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <meta charset="utf-8">
+
+  <style>
+
+  </style>
+</head>
+
+<body>
+  <form method="GET">
+    <label>
+      Имя
+      <input type="text">
+    </label>
+    <br>
+    <label>Фамилия
+      <input type="text">
+    </label>
+    <br>
+    <br>
+    <label>
+      Пароль
+      <input type="password" name="pass">
+    </label>
+    <br>
+    <br>
+    <input type="radio" name="f1">
+    Один
+    <input type="radio" name="f1">
+    Два
+    <br>
+    <input type="checkbox" name="f2">
+    Три
+    <input type="checkbox" name="f2">
+    Четыре
+    <br>
+
+    <hr>
+    <input type="email" name="email" required="required" autofocus="autofocus" placeholder="Ваша почта">
+    <input type="tell" name="tel" pattern="8-[0-9]{10}">
+    <input type="color" name="color">
+    <input type="date" name="date">
+    <input type="time" name="time">
+    <input type="number" name="number">
+    <input type="submit">
+  </form>
+  <hr>
+
+  <nav>
+    <ol>
+      <li value="3">Один</li>
+      <li value="2">Два</li>
+      <li value="1">Три</li>
+    </ol>
+  </nav>
+  <hr>
+  <nav>
+    <ol reversed>
+      <li>Один</li>
+      <li>Два</li>
+      <li>Три</li>
+    </ol>
+  </nav>
+
+
+  <form oninput="result.value=(cm.value/2.54).toFixed(2)">
+    <p>Введите длину в см
+      <input type="number" name="cm" autofocus>
+    </p>
+    <p>Длина в дюймах:
+      <output name="result">0</output>
+    </p>
+  </form>
