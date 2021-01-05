@@ -1,4 +1,9 @@
 @media (min-width: 300px) and (max-width: 720px) {
+    .img__add{
+        margin: 0 5vw;
+        width: 90% ;
+    
+    }
     header nav ul li{
         color: #ED6990;
         background-color: white;
@@ -336,9 +341,6 @@ text-align: left;
         
     
     }
-    footer nav ul{
-       
-    }
     .input__order{
         width: 100%;
     }
@@ -642,6 +644,7 @@ font-size: 35px;
         width: 100%;
     }
     .text__section {
+        
         width: 100%;
     }
     #phone__menu {

@@ -151,18 +151,20 @@ img[alt="Скребок"]{
     z-index: -1;
 }
 img[alt="Тень роллера"]{
-    width: 1100px;
-    height: 1100px;
-    left: -150px;
-    top: -250px;
+    
+    width:900px;
+    height: 900px;
+    left: -50px;
+    top: -90px;
      z-index: -1;
     
 }
 img[alt="Jade roller"]{
-    width: 1100px;
-    height: 1100px;
-    left: -150px;
-    top: -250px;
+   
+    width:900px;
+    height: 900px;
+    left: -50px;
+    top: -90px;
      z-index: -1;
     
 }

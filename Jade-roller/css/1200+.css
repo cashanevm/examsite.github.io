@@ -1,4 +1,8 @@
 @media (min-width: 1200px) {
+    .img__add{
+        width: 433px ;height: 433px; padding-right: 65px;
+    
+    }
     header nav ul li{
         background-color: white;
     padding: 4vh 1vw;
@@ -168,6 +172,7 @@
         text-align: center;
         }
     .about__text{
+        margin-left: 30px;
         width: 80%;
 
     }
@@ -200,19 +205,23 @@
         flex-direction: column;
         justify-content: center; 
         margin: 0 auto;
-        height: 74px;
         border-radius: 50%;
-        width: 74px;
+        max-height: 74px;
+        max-width: 74px;
+        min-height: 74px;
+        min-width: 74px;
         background: rgba(237, 105, 144, 0.2);
     }
     .cir1{
-        margin-right: 30px;
+       
         display: flex;
        flex-direction: column;
        justify-content: center;
-        height: 111px;
-        border-radius: 50%;
-    width: 111px;
+       border-radius: 50%;
+       max-height: 111px;
+    max-width: 111px;
+    min-height: 111px;
+    min-width: 111px;
     background: rgba(237, 105, 144, 0.2);
     
     }
@@ -300,18 +309,18 @@ text-align: left;
     
     }
     .input__order{
-        width: 50%;
+        /* width: 50%; */
     }
     #del__order{
-
+text-align: right;
         font-size: 18px;
         font-style: normal;
         font-weight: 700;
         line-height: 20px;
         letter-spacing: 0em;
-        text-align: left;
-        /* padding: 45px 0 0 53.5px; */
-        position: absolute;
+       
+         padding: 0 76.5px 0 0;
+        
         cursor:pointer;
         color: #FF4141;
         }
@@ -382,6 +391,7 @@ text-align: left;
         padding-bottom:30px ;
     }
     .input__order input{
+        width: 90%;
         margin: 0 20px 20px 29px;
         background-color: #F9F9F9; ;
     
@@ -401,13 +411,14 @@ text-align: left;
     }
     .order__wrapper{
         width: 75%;
-        padding: 76px 24px 76px 72px;}
+        padding: 25px 24px 76px 72px;}
     .order__flex{
         display: flex;
             }
     #del__phone{
-        padding: 45px 0 0 53.5px;
-        position: absolute;
+        top: 200px;
+        padding: 0 0 0 0;
+        /* position: absolute; */
         cursor:pointer;
         color: #FF4141;
     }
@@ -471,9 +482,14 @@ text-align: left;
     text-align: left;
     
     }
-    .q__ph,.ph__ph{
+    .ph__ph{
+
         padding: 76px 24px 76px 72px;
         width: 50%;}
+        .q__ph{
+        
+            padding: 49px 24px 76px 72px;
+            width: 50%;}
     #phone__section section{
    
         display: flex;
