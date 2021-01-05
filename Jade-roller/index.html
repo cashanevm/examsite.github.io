@@ -6,18 +6,22 @@
     <title>Jade-roller</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/main.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/300.css">
+    <link rel="stylesheet" href="css/300-700.css">
+    <link rel="stylesheet" href="css/700-1000.css">
+    <link rel="stylesheet" href="css/1000-1200.css">
+    <link rel="stylesheet" href="css/1200+.css">
 </head>
 <body>
     <div id="order__section">
         <div class="order__wrapper">
+            <p id="del__order" href="">&#10006 Закрыть</p>
         <h1>Оформление заказа</h1>
         <section>
-            <div style="display: flex;">
+            <div  class="order__flex">
             <div id="roller" class="order__item">
                 <div style="display: flex;" class="img__order">
-                    <img src="img/Jade roller.png" style="width: 50%;" alt="">
+                    <img src="img/Jade roller.png" style="width: 40%;" alt="">
                     <div>
                         <h2>Массажор “Jade Roller” <br>$ 150</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam consectetur augue sed convallis dignissim. Nullam eget purus neque. Cras pellentesque posuere 
@@ -47,32 +51,34 @@
             </div>
            <div class="order__right">
             <div style="display: flex;" class="input__order">
-            <div>
+            <div class="input__div">
                     <input type="name" placeholder="Имя">
                 <input type="tell" placeholder="Номер телефона" name="tel" pattern="8-[0-9]{10}">
                 <input type="sity" placeholder="Город">
             </div>
-            <div>
+            <div class="input__div">
                 <input type="name" placeholder="Фамилия">
                 <input type="email" placeholder="E-mail">
                 <input type="tell" placeholder="Номер телефона" name="tel" pattern="8-[0-9]{10}">
             </div></div>
-            <div style="display: flex;">
+            <div  class="order__buy">
               
         
-                  <a href="">Заказать</a>
+                  <button>Заказать</button>
                 <p>Отправляя заявку Вы соглашаетесь на обработку персональных данных</p></div>
             
             </div>
                 
             </div>
-            <p id="del__order" href="">&#10006 Закрыть</p>
+            
         </section>
     </div>
     </div>
     <div id="phone__section">
         <section>
-            <div class="q__ph"><h1>Остались вопросы?
+            <div class="q__ph">
+                <p id="del__phone" href="">&#10006 Закрыть</p>
+                <h1>Остались вопросы?
                 Будем рады вам помочь!</h1>
                 <div class="phone__more"><div>
                 <p>По телефону</p>
@@ -96,12 +102,12 @@
                 и мы перезвоним очень скоро!</h1>
                 
     <input type="tell" placeholder="Ваш номер телефона" name="tel" pattern="8-[0-9]{10}">
-               <div style="display: flex;">
-                <a href="">Заказать звонок</a>
+               <div  class="get__phonesection">
+                <button>Заказать звонок</button>
                 <p>Отправляя заявку Вы соглашаетесь на обработку персональных данных</p>
             </div>
             </div>
-            <p id="del__phone" href="">&#10006 Закрыть</p>
+            
         </section>
     </div>
     <div class="block1">
@@ -339,7 +345,7 @@ Morbi dapibus tellus ante, eu ultricies tortor euismod at. Phasellus volutpat ac
 <div class="block7">
     <img src="img/Фото (2).png" style="position: absolute;" alt="">
     <div class="tablo">
-        <div class="time"><div class="time__char"><p><span> 01</span><br> день</p></div><div class="time__char"><p> <span>23</span> <br> часа</p></div><div class="time__char"><p><span>14 </span> <br> минут</p></div></div>
+        <div class="time"><div id="time__char"><p><span> 01</span><br> день</p></div><div id="time__char"><p> <span>23</span> <br> часа</p></div><div id="time__char"><p><span>14 </span> <br> минут</p></div></div>
 <h1>Персональная скидка на 
     набор “Jade Roller” </h1>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam consectetur augue sed convallis dignissim. Nullam eget purus neque. Cras pellentesque posuere laoreet. </p>
