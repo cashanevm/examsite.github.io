@@ -1,108 +1,403 @@
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jade-roller</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/300.css">
+    <link rel="stylesheet" href="css/300-700.css">
+    <link rel="stylesheet" href="css/700-1000.css">
+    <link rel="stylesheet" href="css/1000-1200.css">
+    <link rel="stylesheet" href="css/1200+.css">
 </head>
-
 <body>
-  <div id="element__wrapper">
+    <div id="order__section">
+        <div class="order__wrapper">
+            <p id="del__order" href="">&#10006 Закрыть</p>
+        <h1>Оформление заказа</h1>
+        <section>
+            <div  class="order__flex">
+            <div id="roller" class="order__item">
+                <div style="display: flex;" class="img__order">
+                    <img src="img/Jade roller.png" style="width: 40%;" alt="">
+                    <div>
+                        <h2>Массажор “Jade Roller” <br>$ 150</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam consectetur augue sed convallis dignissim. Nullam eget purus neque. Cras pellentesque posuere 
+                            laoreet</p>
+                    </div>
+                </div>
+            </div>
+            <div id="skrebok" class="order__item">
+                <div style="display: flex;" class="img__order">
+                    <img src="img/Скребок.png" style="width: 40%;" alt="">
+                    <div>
+                        <h2>Массажор “Jade Roller” <br>$ 150</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam consectetur augue sed convallis dignissim. Nullam eget purus neque. Cras pellentesque posuere 
+                            laoreet</p>
+                    </div>
+                </div>
+            </div>
+            <div id="jade" class="order__item">
+                <div style="display: flex;" class="img__order">
+                    <img src="img/Jade.png" style="width: 40%;" alt="">
+                    <div>
+                        <h2>Массажор “Jade Roller” <br>$ 150</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam consectetur augue sed convallis dignissim. Nullam eget purus neque. Cras pellentesque posuere 
+                            laoreet</p>
+                    </div>
+                </div>
+            </div>
+           <div class="order__right">
+            <div style="display: flex;" class="input__order">
+            <div class="input__div">
+                    <input type="name" placeholder="Имя">
+                <input type="tell" placeholder="Номер телефона" name="tel" pattern="8-[0-9]{10}">
+                <input type="sity" placeholder="Город">
+            </div>
+            <div class="input__div">
+                <input type="name" placeholder="Фамилия">
+                <input type="email" placeholder="e-mail">
+                <input type="tell" placeholder="Номер телефона" name="tel" pattern="8-[0-9]{10}">
+            </div></div>
+            <div  class="order__buy">
+              
+        
+                  <button>Заказать</button>
+                <p>Отправляя заявку Вы соглашаетесь на обработку персональных данных</p></div>
+            
+            </div>
+                
+            </div>
+            
+        </section>
+    </div>
+    </div>
+    <div id="phone__section">
+        <section>
+            <div class="q__ph">
+                <p id="del__phone" href="">&#10006 Закрыть</p>
+                <h1>Остались вопросы?
+                Будем рады вам помочь!</h1>
+                <div class="phone__more"><div>
+                <p>По телефону</p>
+                <p> <span>+38 (098) 331-44-91</span></p>
+            </div>
+            <div>
+                <p>Написать на почту</p>
+                <p><span>cashanevm@gmail.com</span> </p>
+            </div></div>
+            
+             <p>В мессенджере</p>
+             <ul class="nav__chats">
+                <li><img src="img/icon-instagram.png" alt=""></li>
+                <li><img src="img/icon-pinterest.png" alt=""></li>
+                <li><img src="img/icon-viber.png" alt=""></li>
+                <li><img src="img/icon-телеграмма.png" alt=""></li>
+            </ul>
+            </div>
+            <div class="ph__ph">
+            <h1>Закажите звонок,
+                и мы перезвоним очень скоро!</h1>
+                
+    <input type="tell" placeholder="Ваш номер телефона" name="tel" pattern="8-[0-9]{10}">
+               <div  class="get__phonesection">
+                <button>Заказать звонок</button>
+                <p>Отправляя заявку Вы соглашаетесь на обработку персональных данных</p>
+            </div>
+            </div>
+            
+        </section>
+    </div>
+    <div class="block1">
+    <header>
+        <div class="logo">
+            <img src="img/Screenshot__85_-removebg-preview 1.png" alt="">
+            <p>Mommy’s</p>
+        </div>
+        <button id="phone__menu">&#9776</button>
+        <nav>
+            
+            <ul id="menu__child">
+                <li><a href="">Наши товары</a> </li>
+                <li><a href="">О нас</a> </li>
+                <li><a href="">Преимущества</a> </li>
+                <li><a href="">Фото</a> </li>
+                <li><a href="">Отзывы</a> </li>
+                <li><a href="">FAQ</a> </li>
+            </ul>
+        </nav>
+        <button id="phone__phone">&#9742</button>
+        <nav class="phone">
+            
+            <div class="circle__1"><div class="circle__2"><p>&#9742</p></div></div>
+            
 
-    <section id="element__sector">
-      <h1>HELLO</h1>
-      <!-- <button id="start__button">Start</button> -->
-    </section>
-    <p id="element__welcome">Welcome</p>
-  </div>
-  <div class="site__side">
- <header >
-<nav>
-  <ul>
-    <li><a href="#" id="button__main"">&#8617</a></li>
-    <li><a href="#" id="button__about">About</a></li>
-    <li><a href="#" id="button__works">Works</a></li>
-    <li><a href="#" id="button__contact">Contacts</a></li>
-  </ul>
-</nav>
-</header>
-<div id="underheader">
-
-</div>
-<main id="site__main">
-  <div class="main__main">
-    <div class="block"><img id="main_foto_1"src="img/my__foto__1.jpg" alt="my__foto">
-<section>
-  <h1>Oleksandr Nevmerzhytskyi</h1>
-  <p>It is a happiness to wonder, it is a happiness to dream. </p><q>Edgar Allan Poe</q>
-  
-</section></div>
-<div class="block"><section>
-  <h1>Oleksandr Nevmerzhytskyi</h1>
-  <p>Even when love isn’t enough…somehow it is. </p><q>Steven King</q></section>
-<img id="main_foto_2" src="img/my__foto__2.jpg" alt="my__foto">
-</div>
-<div class="block"><img id="main_foto_3"src="img/my__foto__3.jpg" alt="my__foto">
-  <section>
-    <h1>Oleksandr Nevmerzhytskyi</h1>
-    <p>The first half of life consists of the capacity to enjoy without the chance, the last half consists of the chance without the capacity. </p><q>Mark Twain</q></section></div>
-  <div class="block"><section>
-    <h1>Oleksandr Nevmerzhytskyi</h1>
-    <p>Be the best version of you... </p><q>Oleksandr Nevmerzhytskyi</q>
-  </section>
-  <img id="main_foto_4" src="img/my__foto__4.jpg" alt="my__foto">
-  </div>
-  </div>
-  <footer>
-    <p>Copyright © 2020 Oleksandr Nevmerzhytskyi</p>
-  </footer>
+<div class="phone__nav"><p>принимаем звонки 24 / 7</p>
+        <a id="phone__a"href="tel:+380983314491">+380983314491</a><br>
+        <p id="get__phone"href="">Заказать звонок</p>
+    </div>
+        
+        </nav>
+    </header>
+<main>
+    
+        <section class="text__section">
+<h1>Массажор который сможет омолодить Вас!</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam consectetur augue sed convallis dignissim. Nullam eget purus neque. Cras pellentesque posuere laoreet. Praesent metus erat, semper et commodo eget, scelerisque a eros. Nam erat justo, mollis eget imperdiet non, blandit id eros.</p>
+<p style="padding-bottom: 40px;">Etiam feugiat ipsum et metus auctor, non aliquam nunc malesuada. Aliquam commodo magna ac lacus ornare commodo.
+    Morbi dapibus tellus ante, eu ultricies tortor euismod at. Phasellus volutpat accumsan consequat. Aenean iaculis lorem vitae mollis tincidunt. Curabitur lacinia neque dapibus,</p>
+<a href="">Посмотреть товары</a>   
+<div class="add__mam"> 
+    <div class="block__add"><p style="color:#ED6990; font-size: 50px; padding-bottom:15px ;" >&#9745</p><p> 100% кварц, который проходит проверку качества</p></div>
+    <div class="block__add"><p style="color:#ED6990; font-size: 50px;padding-bottom:15px ;" >&#9883</p><p> 10 лет продаем и радуем девушек и женщин</p></div>
+    <div class="block__add"><p style="color:#ED6990; font-size: 50px;padding-bottom:15px ;" >&#9850</p><p>Персональные скидки и еженедельные бонусы</p></div>
+</div>   
+</section>
+        <section  class="img__section" style="position: relative;">
+            <img  src="img/Лебестки.png" alt="Лебестки">
+            <img  src="img/Тень роллера.png" alt="Тень роллера">
+            <img  src="img/Скребок.png" alt="Скребок">
+            <img  src="img/Тень скребка.png" alt="Тень скребка">
+            <img  src="img/Jade roller.png" alt="Jade roller">
+<p class="img__p1">100% кварц</p>
+<p class="img__p2">100% кварц</p>
+        </section>
+    
 </main>
 
-
-
-<div id="site__about">
-  <div class="about__main">
-  <img src="img/about__me.jpg" alt="">
-  <section>
-    <h1>Мета</h1>
-    <p>Мета цього проекта є показати на що я здатний і що взагалі зі себе представляю </p>
-  </section>
-  <section>
-    <!-- <h1>WEFWEFW</h1>
-    <p>Мета цього проекта є показати на що я здатний і що взагалі зі себе представляю</p> -->
-  </section>
 </div>
-  <footer>
-    <p>Copyright © 2020 Oleksandr Nevmerzhytskyi</p>
-  </footer>
+<div class="block2">
+    <h1>Наша продукция</h1>
+    <section class="item__mam">
+        <div class="block__item">
+            <img src="img/Jade roller.png" alt="">
+            <h2>Массажор “Jade Roller”<br>$ 150</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam consectetur augue sed convallis dignissim. Nullam eget purus neque. Cras pellentesque posuere laoreet</p>
+            <button id="roller__button" >Заказать</button>
+            
+        </div>
+        <div class="block__item">
+            <img src="img/Скребок.png" alt="">
+            <h2>Скребок гуаш<br> $ 90</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam consectetur augue sed convallis dignissim. Nullam eget purus neque. Cras pellentesque posuere laoreet</p>
+            <button id="skrebok__button"  >Заказать</button>
+        </div>
+        <div class="block__item">
+            <img src="img/Jade.png" alt="">
+            <h2>Набор “Jade Roller”<br>$ 450</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam consectetur augue sed convallis dignissim. Nullam eget purus neque. Cras pellentesque posuere laoreet</p>
+           <button id="jade__button"  >Заказать</button> 
+        </div>
+    </section>
+</div>
+<div class="block3">
+    <section>
+        <img src="img/lakes.png" alt="">
+        <div class="text">
+            <h1>Немного о нашем магазине</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam consectetur augue sed convallis dignissim. Nullam eget purus neque. Cras pellentesque posuere laoreet. Praesent metus erat, semper et commodo eget, scelerisque a eros. Nam erat justo, mollis eget imperdiet non, blandit id eros. Etiam feugiat ipsum et metus auctor, non aliquam nunc malesuada. Aliquam commodo magna ac lacus ornare commodo.
+<br><br>
+        
+                Morbi dapibus tellus ante, eu ultricies tortor euismod at. Phasellus volutpat accumsan consequat. Aenean iaculis lorem vitae mollis tincidunt. Curabitur lacinia neque dapibus,</p>
+        </div>
+    </section>
+    <div class="info">
+        <!-- <img src="img/Фото - блок о нас(0).png" alt="about__0">
+        <img src="img/Фото - блок о нас (1).png" alt="about__1">
+        <img src="img/Фото - блок о нас (2).png" alt="about__2"> -->
+       
+        <ol>
+            <li>
+                <h2>Всё для <br> 
+                    дорогого клиента</h2>
+                <p>Доставка наложеным платежом,
+                    тех. поддержка 24/7</p>
+            </li>
+            <li>
+                <h2>Проверяем <br>
+                    каждый товар</h2>
+                <p>Каждый товар проходит 
+                    проверку на оригинальности 
+                    кварца</p>
+            </li>
+            <li>
+                <h2>Постоянные акции <br>
+                    и бонусы</h2>
+                <p>Доставка наложеным платежом,
+                    тех. поддержка 24/7</p>
+            </li>
+        </ol>
+    </div>
 </div>
 
-
-
-
-<div id="site__works">works
-  <footer>
-    <p>Copyright © 2020 Oleksandr Nevmerzhytskyi</p>
-  </footer>
+<div class="block4">
+<section class="img__sec">
+    
+    <img  src="img/Тень роллера.png" alt="Тень роллера1">
+    
+    <img  src="img/Jade roller.png" alt="Jade roller1">
+    <button id="roller__main">Заказать</button>
+    
+</section>
+<section class="text__sec">
+    <h1>Для чего Вам нужен массажер?</h1>
+    <div class="about__mam">
+<div class="block__about">
+    <div class="cir1">
+        <div class="cir2">
+            <p>&#9728</p>
+        </div>
+    </div>
+    <div class="about__text">
+        <h2>Разгоняет кровь по всему лицу</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam consectetur augue sed convallis dignissim. Nullam eget purus neque. Cras pellentesque posuere laoreet</p>
+    </div>
 </div>
-<div id="site__contact">contact
-  <footer>
-    <p>Copyright © 2020 Oleksandr Nevmerzhytskyi</p>
-  </footer>
+<div class="block__about">
+    <div class="cir1">
+        <div class="cir2">
+            <p>&#9730</p>
+        </div>
+    </div>
+    <div class="about__text">
+        <h2>Массажор разглаживает морщины</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam consectetur augue sed convallis dignissim. Nullam eget purus neque. Cras pellentesque posuere laoreet</p>
+    </div>
+</div>
+<div class="block__about">
+    <div class="cir1">
+        <div class="cir2">
+            <p>&#9733</p>
+        </div>
+    </div>
+    <div class="about__text">
+        <h2>Jade Roller дарит свежий цвет лица</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam consectetur augue sed convallis dignissim. Nullam eget purus neque. Cras pellentesque posuere laoreet</p>
+    </div>
+</div>
+<div class="block__about">
+    <div class="cir1">
+        <div class="cir2">
+            <p>&#9937</p>
+        </div>
+    </div>
+    <div class="about__text">
+        <h2>Помогает избавиться от постакне</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam consectetur augue sed convallis dignissim. Nullam eget purus neque. Cras pellentesque posuere laoreet</p>
+    </div>
+</div>
+    </div>
+    <button id="roller__block4">Заказать</button>
+</section>
+</div>
+<div class="block5">
+    <h1>Фото с массажером “Jade roller”</h1>
+    <div class="img__mam">
+        <img src="img/IMG_0637.png" alt="">
+        <img src="img/IMG_0640.png" alt="">
+        <img src="img/IMG_0645.png" alt="">
+        <img src="img/IMG_1453.png" alt="">
+        <img src="img/IMG_1454.png" alt="">
+        <img src="img/IMG_1455.png" alt="">
+        <img src="img/IMG_1456.png" alt="">
+        <img src="img/IMG_0642.png" alt="">
+        <img src="img/IMG_0645.png" alt="img__phone">
+    </div>
+    <a href="">Посмотреть больше фото в нашем инстаграм</a>
+</div>
+<div class="block6">
+    <section class="coment__text">
+        <h1>Отзывы об Jade Roller</h1>
+    <div class="user">
+        <div class="user__ava">
+            <img src="img/Фото с профиля.png" alt="">
+            <div class="user__info">
+            <p>@ivashek</p>
+            <h2>Анна Шишатская</h2>
+            <p>21 год</p>
+        </div>
+        </div>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam consectetur augue sed convallis dignissim. Nullam eget purus neque. Cras pellentesque posuere laoreet. Praesent metus erat, semper et commodo eget, scelerisque a eros. Nam erat justo, mollis eget imperdiet non, blandit id eros. Etiam feugiat ipsum et metus auctor, non aliquam nunc malesuada. Aliquam commodo magna ac lacus ornare commodo.
+<br><br>
+Morbi dapibus tellus ante, eu ultricies tortor euismod at. Phasellus volutpat accumsan consequat. Aenean iaculis lorem vitae mollis tincidunt. Curabitur lacinia neque dapibus, molestie diam et, molestie ipsum. Nulla pulvinar arcu eleifend pulvinar consequat. Vivamus et enim sodales, tempor ante eget
+        </p></div>
+        <nav>
+            <a href="">‹</a><a href="">›</a>
+        </nav>
+    </section>
+    <section class="coment__img">
+        <h1>Больше отзывов в нашем инстаграм</h1>
+        <div class="img__field">
+            <img src="img/pngegg (10) 1.png"  alt="pngegg10">
+            <img src="img/Group 21.png"  alt="Group21">
+            <img src="img/image 1.png"  alt="image1">
+            <img src="img/pngegg (9) 1.png" alt="pngegg9">
+            
+    </div>
+        
+        <a href="">Перейти в инстаграм</a>
+    </section>
 </div>
 
- 
- 
-
-
-
+<div class="block7">
+    <img src="img/Фото (2).png" style="position: absolute;" alt="">
+    <div class="tablo">
+        <div class="time"><div id="time__char"><p><span> 01</span><br> день</p></div><div id="time__char"><p> <span>23</span> <br> часа</p></div><div id="time__char"><p><span>14 </span> <br> минут</p></div></div>
+<h1>Персональная скидка на 
+    набор “Jade Roller” </h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam consectetur augue sed convallis dignissim. Nullam eget purus neque. Cras pellentesque posuere laoreet. </p>
+<a href=""><span>&#10084</span>Купить со скидкой 25%</a>    
+</div>
+    <img src="img/Jade.png" class ="img__add" alt="">
+</div>
+<div class="block8">
+    <h1>Часто задаваемые вопросы:</h1>
+   <div class="q__mam">
+    <div class="q__sec">
+    <div><p>Настоящий ли кварц в массажоре?</p><img id="button__q1" src="https://img.icons8.com/android/96/000000/expand-arrow.png"/> </div><aside id="block__q1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic quasi quae nesciunt dicta eum aut porro eveniet exercitationem molestias quam quo quia recusandae optio deserunt laudantium, corrupti in neque autem. Rem, perspiciatis temporibus! Quia aut sit sapiente hic consequuntur cum soluta maxime inventore officiis dolorum, eveniet facilis quae non temporibus?</aside>
+    <div><p>Настоящий ли кварц в массажоре?</p><img id="button__q2" src="https://img.icons8.com/android/96/000000/expand-arrow.png"/> </div><aside id="block__q2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic quasi quae nesciunt dicta eum aut porro eveniet exercitationem molestias quam quo quia recusandae optio deserunt laudantium, corrupti in neque autem. Rem, perspiciatis temporibus! Quia aut sit sapiente hic consequuntur cum soluta maxime inventore officiis dolorum, eveniet facilis quae non temporibus?</aside>
+    <div><p>Настоящий ли кварц в массажоре?</p><img id="button__q3" src="https://img.icons8.com/android/96/000000/expand-arrow.png"/> </div><aside id="block__q3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic quasi quae nesciunt dicta eum aut porro eveniet exercitationem molestias quam quo quia recusandae optio deserunt laudantium, corrupti in neque autem. Rem, perspiciatis temporibus! Quia aut sit sapiente hic consequuntur cum soluta maxime inventore officiis dolorum, eveniet facilis quae non temporibus?</aside>
+    <div><p>Настоящий ли кварц в массажоре?</p><img id="button__q4" src="https://img.icons8.com/android/96/000000/expand-arrow.png"/> </div><aside id="block__q4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic quasi quae nesciunt dicta eum aut porro eveniet exercitationem molestias quam quo quia recusandae optio deserunt laudantium, corrupti in neque autem. Rem, perspiciatis temporibus! Quia aut sit sapiente hic consequuntur cum soluta maxime inventore officiis dolorum, eveniet facilis quae non temporibus?</aside>
+    <div><p>Настоящий ли кварц в массажоре?</p><img id="button__q5" src="https://img.icons8.com/android/96/000000/expand-arrow.png"/> </div><aside id="block__q5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic quasi quae nesciunt dicta eum aut porro eveniet exercitationem molestias quam quo quia recusandae optio deserunt laudantium, corrupti in neque autem. Rem, perspiciatis temporibus! Quia aut sit sapiente hic consequuntur cum soluta maxime inventore officiis dolorum, eveniet facilis quae non temporibus?</aside>
+   </div> 
+   <div class="q__sec">
+    <div><p>Настоящий ли кварц в массажоре?</p><img id="button__q6" src="https://img.icons8.com/android/96/000000/expand-arrow.png"/> </div><aside id="block__q6">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic quasi quae nesciunt dicta eum aut porro eveniet exercitationem molestias quam quo quia recusandae optio deserunt laudantium, corrupti in neque autem. Rem, perspiciatis temporibus! Quia aut sit sapiente hic consequuntur cum soluta maxime inventore officiis dolorum, eveniet facilis quae non temporibus?</aside>
+    <div><p>Настоящий ли кварц в массажоре?</p><img id="button__q7" src="https://img.icons8.com/android/96/000000/expand-arrow.png"/> </div><aside id="block__q7">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic quasi quae nesciunt dicta eum aut porro eveniet exercitationem molestias quam quo quia recusandae optio deserunt laudantium, corrupti in neque autem. Rem, perspiciatis temporibus! Quia aut sit sapiente hic consequuntur cum soluta maxime inventore officiis dolorum, eveniet facilis quae non temporibus?</aside>
+    <div><p>Настоящий ли кварц в массажоре?</p><img id="button__q8" src="https://img.icons8.com/android/96/000000/expand-arrow.png"/> </div><aside id="block__q8">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic quasi quae nesciunt dicta eum aut porro eveniet exercitationem molestias quam quo quia recusandae optio deserunt laudantium, corrupti in neque autem. Rem, perspiciatis temporibus! Quia aut sit sapiente hic consequuntur cum soluta maxime inventore officiis dolorum, eveniet facilis quae non temporibus?</aside>
+    <div><p>Настоящий ли кварц в массажоре?</p><img id="button__q9" src="https://img.icons8.com/android/96/000000/expand-arrow.png"/> </div><aside id="block__q9">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic quasi quae nesciunt dicta eum aut porro eveniet exercitationem molestias quam quo quia recusandae optio deserunt laudantium, corrupti in neque autem. Rem, perspiciatis temporibus! Quia aut sit sapiente hic consequuntur cum soluta maxime inventore officiis dolorum, eveniet facilis quae non temporibus?</aside>
+    <div><p>Настоящий ли кварц в массажоре?</p><img id="button__q10" src="https://img.icons8.com/android/96/000000/expand-arrow.png"/> </div><aside id="block__q10">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic quasi quae nesciunt dicta eum aut porro eveniet exercitationem molestias quam quo quia recusandae optio deserunt laudantium, corrupti in neque autem. Rem, perspiciatis temporibus! Quia aut sit sapiente hic consequuntur cum soluta maxime inventore officiis dolorum, eveniet facilis quae non temporibus?</aside>
+   </div> </div>
+</div>
+<footer>
+<nav>
+    <div class="mass__mam">
+    <ul class="nav__mass">
+        <li> <a href="">Наши товары</a> </li>
+        <li> <a href="">О нас</a> </li>
+        <li> <a href="">Преимущества</a> </li>
+    </ul>
+    <ul class="nav__mass">
+        <li> <a href="">Фото</a> </li>
+        <li> <a href="">Отзывы</a> </li>
+        <li> <a href="">FAQ</a> </li>
+    </ul>
+</div>
+    <ul class="nav__chats">
+        <li><img src="img/icon-instagram.png" alt=""></li>
+        <li><img src="img/icon-pinterest.png" alt=""></li>
+        <li><img src="img/icon-viber.png" alt=""></li>
+        <li><img src="img/icon-телеграмма.png" alt=""></li>
+    </ul>
+</nav>
+<p>Copyright 2020</p>
+</footer>
+<script>
+    
+</script>
+<script src="js/main.js"></script>
 </body>
-
-
-<script src="js/script.js"></script>
 
 </html>
