@@ -167,7 +167,7 @@
         margin: 0 auto;
     }
     .footer__block{
-        padding: 74px 21% 99px 21%;
+        padding: 74px 8% 99px 8%;
         display: flex;
         justify-content: space-around;
         background-image: url(../img/footer__bg.png);
